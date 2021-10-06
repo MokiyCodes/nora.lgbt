@@ -8,7 +8,7 @@ export default (Class: (a: string) => string) => {
 	return (
 		<div className={Class('section aboutSection')}>
 			<img
-				src="https://github.com/0J3/nora.lgbt/raw/v3/src/assets/icons/nezuko.png"
+				src="https://github.com/MokiyCodes/nora.lgbt/raw/v3/src/assets/icons/nezuko.png"
 				alt="Profile Picture"
 				className={Class('pfpImg')}
 				style={{
@@ -82,31 +82,15 @@ export default (Class: (a: string) => string) => {
 																		<>
 																			<br />
 																			<MozLink
-																				href="https://twitter.com/0J3_3"
+																				href="https://discord.com/users/596425713347723269"
 																				target="_blank"
 																			>
-																				Twitter
+																				Discord
 																			</MozLink>{' '}
 																			<Typewriter
-																				text={'(Less Professional)'}
+																				text={'(pwease fwiend me)'}
 																				interval={typeinterval}
-																				cursorFlashes={1}
-																				doneEl={
-																					<>
-																						<br />
-																						<MozLink
-																							href="https://discord.com/users/596425713347723269"
-																							target="_blank"
-																						>
-																							Discord
-																						</MozLink>{' '}
-																						<Typewriter
-																							text={'(pwease fwiend me)'}
-																							interval={typeinterval}
-																							cursorFlashes={25}
-																						/>
-																					</>
-																				}
+																				cursorFlashes={25}
 																			/>
 																		</>
 																	}
