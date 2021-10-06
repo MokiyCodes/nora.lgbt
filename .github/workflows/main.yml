@@ -1,7 +1,7 @@
 name: Update Submodules
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: '0 4 * * *'
   workflow_dispatch: ~
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
           path: src/components/mozAlike
           ref: main
           pr_branch: automated-submodule-update
-          target_branch: v3
+          target_branch: main

@@ -8,7 +8,7 @@ export default (Class: (a: string) => string) => {
 	return (
 		<div className={Class('section aboutSection')}>
 			<img
-				src="https://github.com/MokiyCodes/nora.lgbt/raw/v3/src/assets/icons/nezuko.png"
+				src="https://github.com/MokiyCodes/nora.lgbt/raw/main/src/assets/icons/nezuko.png"
 				alt="Profile Picture"
 				className={Class('pfpImg')}
 				style={{
