@@ -1,5 +1,4 @@
-# MOVED
-This repository has moved to [`MokiyCodes`](https://github.com/MokiyCodes/)/[`nora.lgbt`](https://github.com/MokiyCodes/nora.lgbt)
+This repository was semi-forked from [`0J3`](https://github.com/0J3/)/[`nora.lgbt`](https://github.com/0J3/nora.lgbt)
 
 ## [nora.lgbt](https://nora.lgbt?ref=ghreadme)
 
