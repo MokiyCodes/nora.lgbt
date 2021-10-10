@@ -80,6 +80,11 @@ export default class Goto extends Component<{
 					`${document.location.protocol}//${document.location.host}/redirect/`,
 					''
 				);
+
+			if (t.startsWith('base64decode/')) {
+				t = t.replace('base64decode/', '');
+				t = window.atob(t);
+			}
 			if (t.toLowerCase().startsWith('gh/')) {
 				t = t.replace('gh/', '');
 				t = `https://github.com/${t}`;
