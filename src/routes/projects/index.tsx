@@ -91,6 +91,16 @@ const projects: Project[] = [
 		projURL: 'https://3qmk.xyz/',
 		repoURL: 'https://github.com/ku-ts/site',
 	},
+	{
+		name: 'AstolfoBrew',
+		description: 'A Lua5.1 Obfuscator',
+		projURL: 'javascript:alert("-> Soon\n\n")',
+	},
+	{
+		name: '???',
+		description: 'not saying what this is yet :)',
+		projURL: 'javascript:alert("-> Soon\n\n")',
+	},
 ];
 
 /**
