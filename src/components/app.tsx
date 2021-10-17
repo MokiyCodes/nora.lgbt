@@ -90,6 +90,25 @@ const App: FunctionalComponent = () => {
 					<Route path="/bg/:r/:g/:b" component={Bg} />
 					{/* ROUTE /bg/:r/:g/:b/:a? */}
 					<Route path="/bg/:r/:g/:b/:a?" component={Bg} />
+					{/* ROUTE /unsubscribe-f */}
+					<Route
+						path="/unsubscribe-f"
+						component={a => {
+							alert(
+								'Cannot unsubscribe from this E-Mail!\nThis mail was hand-written, and therefor cannot be unsubscribed from.' +
+									'\n\nIf you prefer that I do not message you, respond to the email with a message indicating such.' +
+									'\n That email can be as simple as "Please do not message me again".'
+							);
+							history.back();
+							return (
+								<p>
+									Cannot unsubscribe from a hand-written E-Mail.
+									<br />
+									Please close this tab.
+								</p>
+							);
+						}}
+					/>
 					{/* ROUTE 404 */}
 					<NotFoundPage default />
 					{/* !SECTION */}
