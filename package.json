@@ -36,7 +36,7 @@
 		"enzyme-adapter-preact-pure": "3.3.0",
 		"eslint": "8.2.0",
 		"eslint-config-preact": "1.2.0",
-		"eslint-plugin-react": "7.27.0",
+		"eslint-plugin-react": "7.28.0",
 		"jest": "27.3.1",
 		"jest-preset-preact": "4.0.5",
 		"preact-cli": "3.3.1",
