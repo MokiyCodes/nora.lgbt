@@ -1,5 +1,5 @@
 {
   "extends": [
-    "github>MokiyCodes/MokiyCodes:cfg/renovate.json"
+    "https://mokiycodes.github.io/MokiyCodes/cfg/renovate.json"
   ]
 }
