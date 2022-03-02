@@ -23,7 +23,7 @@
 		"@nodelib/fs.stat": "2.0.5",
 		"preact": "10.5.15",
 		"preact-render-to-string": "5.1.20",
-		"preact-router": "3.2.1"
+		"preact-router": "4.0.1"
 	},
 	"devDependencies": {
 		"@types/enzyme": "3.10.10",
