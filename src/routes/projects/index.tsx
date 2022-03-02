@@ -46,20 +46,20 @@ interface ProjectURLs {
 
 interface Project extends ProjectURLs, ProjectBase {}
 
-const projects: Project[] = [
+const projects: Project[] = [/*
 	{
 		name: 'AutoUsrBGs',
 		description:
 			'Custom user backgrounds on BD/Powercord without the need for nitro',
 		projURL: 'https://aubg.nora.lgbt/',
-	},
+	},*/
 	{
 		name: 'QuickRPC',
 		description:
 			'Get started with your own Custom Discord Rich Presence status in a few minutes',
 		repoURL: '/goto/gh/0J3/QuickRPC',
 		projURL: 'https://quickrpc.nora.lgbt/',
-	},
+	},/*
 	{
 		name: 'GoosemodInstaller',
 		description: 'An unofficial Goosemod Installer - Not much more to it',
@@ -72,13 +72,13 @@ const projects: Project[] = [
 			'A simple, generic Video Player - Add the .mp4 link to the end of the URL to play said video',
 		repoURL: '/goto/gh/0J3/VideoPlayer',
 		projURL: 'https://player.nora.lgbt/',
-	},
+	},*/
 	{
-		name: 'Nora.LGBT',
+		name: 'Nora.lgbt',
 		description: "The site you're on right now i guess",
 		projURL: 'https://nora.lgbt/about',
 		repoURL: 'https://github.com/MokiyCodes/nora.lgbt',
-	},
+	},/*
 	{
 		name: 'NezukoBD',
 		description: 'Nezuko is the best girl',
@@ -90,15 +90,10 @@ const projects: Project[] = [
 		description: 'The website for one of my friends (3qmk/yvonne)',
 		projURL: 'https://3qmk.xyz/',
 		repoURL: 'https://github.com/ku-ts/site',
-	},
+	},*/
 	{
-		name: 'AstolfoBrew',
-		description: 'A Lua5.1 Obfuscator',
-		projURL: 'javascript:alert("-> Soon\n\n")',
-	},
-	{
-		name: '???',
-		description: 'not saying what this is yet :)',
+		name: 'AstolfoBrew v3',
+		description: 'A Lua 5.1 Obfuscator',
 		projURL: 'javascript:alert("-> Soon\n\n")',
 	},
 ];
