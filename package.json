@@ -40,7 +40,7 @@
 		"jest": "27.5.1",
 		"jest-preset-preact": "4.0.5",
 		"preact-cli": "3.3.5",
-		"sass": "1.49.10",
+		"sass": "1.49.11",
 		"sass-loader": "10.2.1",
 		"sirv-cli": "2.0.2",
 		"style-loader": "3.3.1",
